@@ -11,6 +11,10 @@
 # production
 /build
 
+# stop messing with files in the API, it is another repo!!!!
+../package.json
+../package-lock.json
+
 # misc
 .DS_Store
 .env.local
