@@ -1,0 +1,12 @@
+2022-01-08
+Cannot install react-router-dom 6.
+App original code from Neil only works with @5.3.0
+NPM says @5.3.2 does not exits.
+=>  React app using old versions of some packages
+    Might be difficult to get it to work with
+    up to date packages.
+Get some cryptic eslint errors about conflict
+between package.json and something called BaseConfig
+Solved by pressing CTRL-S on package.json, even though
+it does not need to be saved.
+PS seems enough just to x it away in the browser
