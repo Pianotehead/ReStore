@@ -3,7 +3,7 @@ import { ThemeProvider } from "@emotion/react";
 import { useState } from "react";
 import { Route} from "react-router-dom";
 import AboutPage from "../../features/about/AboutPage";
-import Catalog from "../../features/catalog/catalog";
+import Catalog from "../../features/catalog/Catalog";
 import ProductDetails from "../../features/catalog/ProductDetails";
 import ContactPage from "../../features/contact/ContactPage";
 import HomePage from "../../features/home/HomePage";
