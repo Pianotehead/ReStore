@@ -53,7 +53,6 @@ export const basketSlice = createSlice({
         });
         builder.addCase(addBasketItemAsync.rejected, (state, action) => {
             state.status = 'idle';
-            console.log(action.payload);
         });
         builder.addCase(removeBasketItemAsync.pending, (state, action) => {
             state.status = `pendingRemoveItem${action.meta.arg.productId}${action.meta.arg.name}`;
@@ -70,7 +69,6 @@ export const basketSlice = createSlice({
             state.status = 'idle';
         });
         builder.addCase(removeBasketItemAsync.rejected, (state, action) => {
-            console.log(action.payload);
             state.status = 'idle';
         });
     })
