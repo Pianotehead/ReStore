@@ -44,17 +44,16 @@ export default function BasketTable({ items, isBasket = true }: Props) {
                      <TableCell align="right">${(item.price / 100).toFixed(2)}</TableCell>
                      <TableCell align="center">
                         {isBasket &&
-                           <TableCell align="right">
-                              <LoadingButton
-                                 loading={status === 'pendingRemoveItem' + item.productId + 'rem'}
-                                 onClick={() => dispatch(removeBasketItemAsync({
-                                    productId: item.productId, quantity: 1, name: 'rem'
-                                 }))}
-                                 color='error'
-                              >
-                                 <Remove />
-                              </LoadingButton>
-                           </TableCell>}
+                           <LoadingButton
+                              loading={status === 'pendingRemoveItem' + item.productId + 'rem'}
+                              onClick={() => dispatch(removeBasketItemAsync({
+                                 productId: item.productId, quantity: 1, name: 'rem'
+                              }))}
+                              color='error'
+                           >
+                              <Remove />
+                           </LoadingButton>
+                        }
                         {item.quantity}
                         {isBasket && <LoadingButton
                            loading={status === 'pendingAddItem' + item.productId}
