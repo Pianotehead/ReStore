@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using API.DTOs;
-
 namespace API.DTOs
 {
     public class BasketDto

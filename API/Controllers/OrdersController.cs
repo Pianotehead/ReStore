@@ -1,14 +1,4 @@
-﻿using API.Data;
-using API.DTOs;
-using API.Entities;
-using API.Entities.OrderAggragate;
-using API.Extensions;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using API.Entities.OrderAggragate;
 
 namespace API.Controllers
 {

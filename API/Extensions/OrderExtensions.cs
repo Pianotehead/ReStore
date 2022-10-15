@@ -1,7 +1,4 @@
-﻿using API.DTOs;
-using API.Entities.OrderAggragate;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
+﻿using API.Entities.OrderAggragate;
 
 namespace API.Extensions
 {

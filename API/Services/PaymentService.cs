@@ -1,9 +1,4 @@
-﻿using API.Entities;
-using Microsoft.Extensions.Configuration;
-using Stripe;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Stripe;
 
 namespace API.Services
 {

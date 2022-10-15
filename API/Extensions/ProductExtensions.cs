@@ -1,8 +1,4 @@
-﻿using API.Entities;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace API.Extensions
+﻿namespace API.Extensions
 {
     public static class ProductExtensions
     {

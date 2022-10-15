@@ -1,6 +1,4 @@
-﻿using API.DTOs;
-using API.Entities;
-using AutoMapper;
+﻿using AutoMapper;
 
 namespace API.RequestHelpers
 {

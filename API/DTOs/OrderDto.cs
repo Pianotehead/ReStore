@@ -1,6 +1,4 @@
 ﻿using API.Entities.OrderAggragate;
-using System.Collections.Generic;
-using System;
 
 namespace API.DTOs
 {

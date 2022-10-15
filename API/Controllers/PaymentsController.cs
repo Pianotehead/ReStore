@@ -1,15 +1,6 @@
-﻿using API.Data;
-using API.DTOs;
-using API.Entities.OrderAggragate;
-using API.Extensions;
-using API.Services;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+﻿using API.Entities.OrderAggragate;
 using Stripe;
 using System.IO;
-using System.Threading.Tasks;
 
 namespace API.Controllers
 {

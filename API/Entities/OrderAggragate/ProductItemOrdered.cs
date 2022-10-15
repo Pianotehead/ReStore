@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace API.Entities.OrderAggragate
+﻿namespace API.Entities.OrderAggragate
 {
     [Owned]
     public class ProductItemOrdered

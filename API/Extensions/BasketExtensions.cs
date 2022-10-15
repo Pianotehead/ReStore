@@ -1,10 +1,4 @@
-﻿using API.DTOs;
-using API.Entities;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace API.Extensions
+﻿namespace API.Extensions
 {
     public static class BasketExtensions
     {
